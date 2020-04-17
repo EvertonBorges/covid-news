@@ -151,11 +151,11 @@ main {
 .new__body img,
 .new__body iframe {
   width: 100%;
-	height: 100%;
+  height: 100%;
 }
 
 .new__body audio {
-	width: 100%;
+  width: 100%;
 }
 
 .new__footer {
