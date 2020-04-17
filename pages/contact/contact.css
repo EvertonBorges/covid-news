@@ -100,11 +100,14 @@ main {
   margin: 0;
   width: 100%;
   padding: 36px 0;
+  height: 80vh;
 }
 
 .form__contact {
   display: flex;
-  justify-content: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   width: 100%;
   align-items: center;
