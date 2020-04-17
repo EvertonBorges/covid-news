@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="image/png" href="favicon.jpg" />
+    <link rel="shortcut icon" type="image/png" href="../../favicon.jpg" />
     <title>COVID - NEWS</title>
 
     <link rel="stylesheet" href="contact.css">
@@ -14,8 +14,8 @@
         <div class="container">
             <nav class="nav">
                 <div class="nav__logo">
-                    <img class="logo" src="./img/logo.jpg" alt="">
-                    <a href="#">COVID - NEWS</a href="#">
+                    <img class="logo" src="../../img/logo.jpg" alt="">
+                    <a href="../../index.html">COVID - NEWS</a href="#">
                 </div>
                 <div class="nav__body">
                     <a class="nav__item" href="../../index.html">HOME</a>
@@ -29,7 +29,20 @@
     <main>
         <div class="container">
             <section class="form">
-                
+                <form class="form__contact" name="contact" method="POST" data-netlify="true">
+                    <p class="form__item">
+                      <label>Nome * <input type="text" name="name" required/></label>   
+                    </p>
+                    <p class="form__item">
+                      <label>E-mail * <input type="email" name="email" required/></label>
+                    </p>
+                    <p class="form__item">
+                      <label>Deixe uma mensagem (O que você achou do site? Críticas ou Sugestôes) <textarea name="message"></textarea></label>
+                    </p>
+                    <p class="form__item">
+                      <button class="button__send" type="submit">Enviar</button>
+                    </p>
+                  </form>
             </section>
         </div>
     </main>
