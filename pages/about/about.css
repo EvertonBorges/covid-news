@@ -230,8 +230,6 @@ main {
 .footer {
   width: 100%;
   height: 56px;
-  bottom: 0;
-  position: absolute;
   background-color: chocolate;
 }
 
