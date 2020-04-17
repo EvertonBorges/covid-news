@@ -161,13 +161,14 @@ main {
 .skills {
   display: block;
   width: 90%;
+  margin-bottom: 16px;
 }
 
 .skill__list {
   list-style: none;
   width: 100%;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   margin: 0;
@@ -175,28 +176,55 @@ main {
 }
 
 .skills h1 {
+  font-size: 1.4em;
+  font-family: 'Roboto', sans-serif;
   margin-bottom: 4px;
 }
 
 .skill__item {
+  display: block;
   min-width: 56px;
   margin: 8px 16px;
-  padding: 4px 16px;
+  padding: 6px 16px;
   text-align: center;
   background-color: chocolate;
   color: white;
   border-radius: 4px;
 }
 
-.skill__item--feature {
-  color: white;
-  position: relative;
-  top: 0;
-  right: 0;
+.skill__name {
+  display: block;
 }
 
-.skill__item:first-of-type {
-  margin-left: 0px;
+.skill__item--feature {
+  color: gold;
+}
+
+.profile__link {
+  width: 90%;
+  margin: 8px 0;
+}
+
+.profile__link:last-of-type {
+  margin-bottom: 24px;
+}
+
+.profile__link h1 {
+  font-size: 1.4em;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 16px;
+}
+
+.profile__link a {
+  color: chocolate;
+  font-size: 1.2em;
+  margin: 0 12px;
+}
+
+.profile__link i {
+  color: chocolate;
+  font-size: 1.2em;
+  margin-right: 4px;
 }
 
 .footer {
