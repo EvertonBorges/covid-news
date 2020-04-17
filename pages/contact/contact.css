@@ -123,6 +123,7 @@ main {
   color: chocolate;
   font-weight: bold;
   font-size: 1.1em;
+  font-family: 'Roboto', sans-serif;
 }
 
 .form__item input,
@@ -135,6 +136,7 @@ main {
   border-color: chocolate;
   border-width: 1px;
   font-size: 0.9em;
+  font-family: 'Roboto', sans-serif;
 }
 
 .form__item textarea {
@@ -153,6 +155,7 @@ main {
   -webkit-transition: 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   background: rgba(210, 105, 30, 1);
+  font-family: 'Roboto', sans-serif;
 }
 
 .button__send:hover {
